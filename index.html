@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooCommerce</title>
+
+    <!-- custum css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media_queries.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+
+    <!--******************************************** start header section  ************************************************-->
+
+
+    <header class=main-header>
+         <div class="main-header-wrapper">
+             <div class="menu-wrapper">
+                <span onclick="myfunction()"><i class="fas fa-bars"></i></span> 
+                <div class="site-logo">
+                    <a href="#"><img src="./images/LOGO.png" alt=""></a>
+                </div>
+             <div class="left-menu" id="menu">
+                <ul >
+                    <li><a href="#sell">Sell</a></li>
+                    <li><a href="#marketplace">Marketplace</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#develop">Develop</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+             
+             <ul class="right-menu"  >
+                     <li ><a href="./html/login.html" target="_blank"><button class="login">Log In</button></a></li>
+                     <li><a href="#"><button class="btn-1" >Get Started</button></a></li>
+                     <li>
+                        <form id="mysearchinput" >
+                         <div class="search-box">
+                                <input type="text" class="search-text"  placeholder="search anything..." value=""  >
+                                <i class="fas fa-times" onclick="myclearFunction()" ></i>
+                                <button type="submit" class="search-btn" ><i class="fas fa-search"></i></button>
+                         </div>
+                        </form>
+                     </li>
+             </ul>
+            </div>
+
+            </div>      
+         </div>
+    </header>
+
+    <!--******************************************** end header section  ************************************************-->
+
+
+
+
+
+
+    <!--******************************************** start hero section  ************************************************-->
+
+   <section class="hp-hero-section">
+    <!-- Start hp hero section shapes -->
+    <img class="hp-hero-right-shape" src="./images/hero-right-shape.png">
+    <!-- End hp hero section shapes -->
+       <div class="hero-wrapper">
+           <div class="left-hero">
+               <h1 class="hero-title">
+                Building exactly the eCommerce website you want.
+               </h1>
+               <p class="block-description">
+                WooCommerce is a customizable, open-source eCommerce platform built on WordPress. 
+                Get started quickly and make your way.
+               </p>
+               <div class="hero-btn">
+                <a href="#"><button class="btn-2">Start a New Store</button></a>
+                <span>or</span>
+                <a href="#"><button class="btn-5">  Customize & Extend › </button></a>
+               </div>
+           </div>
+           <div class="right-hero">
+               <img src="./images/hero-bg.png" alt="">
+           </div>
+       </div>
+   </section>
+
+    <!--******************************************** end hero section  ************************************************-->
+
+    <!--******************************************** start features section  ************************************************-->
+
+    <section id="sell" class="hp-features-section" >
+        <div class="features-head">
+            <h2 class="block-title">
+                Your eCommerce 
+                made simple
+            </h2>
+        </div>
+        <div class="features-wrapper">
+             <div class="features-card">
+                 <div class="features-img">
+                     <img src="./images/features-1.png" alt="">
+                 </div>
+                 <h3 class="block-hint">
+                    All You Need to Start
+                 </h3>
+                 <p class="block-description">
+                    Add WooCommerce plugin to any WordPress site and set up a new store in minutes.
+                 </p>
+                 <a href="#"><button class="btn-5">  Customize & Extend › </button></a>
+             </div>
+             <div class="features-card">
+                <div class="features-img">
+                    <img src="./images/features-2.png" alt="">
+                </div>
+                <h3 class="block-hint">
+                    Customize and Extend
+                </h3>
+                <p class="block-description">
+                    From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.
+                </p>
+                <a href="#"><button class="btn-5">  Customize & Extend › </button></a>
+            </div>
+            <div class="features-card">
+                <div class="features-img">
+                    <img src="./images/features-3.png" alt="">
+                </div>
+                <h3 class="block-hint">
+                    Active Community
+                </h3>
+                <p class="block-description">
+                    WooCommerce is one of the fastest-growing eCommerce communities. 
+                </p>
+                <a href="#"><button class="btn-5">  Customize & Extend › </button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--******************************************** start features section  ************************************************-->
+
+    <!--******************************************** start develop section  ************************************************-->
+
+    <section id="develop" class="hp-develop-section">
+        <!-- Start hp develop section shapes -->
+    <div class="left-develop-shapes">
+        <!-- start develop left shape -->
+        <img src="./images/develop-shape-1.png" alt="" class="develop-left-shape">
+        <!-- end develop right shape -->
+    
+    </div>
+    <!-- End hp develop section shapes -->
+        <div class="develop-wrapper">
+            <div class="left-develop">
+                <div class="develop-img">
+                    <img src="./images/develop-1.png" alt="">
+                </div>
+                    <div class="devlop-text">
+                        <h3 class="block-hint">
+                            Develop<br> 
+                            Without Limits
+                        </h3>
+                        <p class="block-description">
+                            WooCommerce is developer friendly, too. Built with a REST
+                            API, WooCommerce is scalable and can integrate with
+                            virtually any service. Design a complex store from scratch,
+                            extend a store for a client, or simply add a single product to
+                            a WordPress site—your store, your way.
+                        </p>
+                        <a href="#"><button class="btn-3">Read the  Documentation</button></a>
+                    </div>
+            </div>
+            <div class="right-develop">
+                <div class="devlop-text">
+                    <h3 class="block-hint">
+                        Know our <br>
+                        Global Community
+                    </h3>
+                    <p class="block-description">
+                        WooCommerce is one of the fastest-growing eCommerce
+                        communities. We’re proud that the helpfulness of the
+                        community and a wealth of online resources are frequently
+                        cited as reasons our users love it. There are 80+ meetups worldwide!
+                    </p>
+                    <a href="#"><button class="btn-3">Read the  Documentation</button></a>
+                </div>
+                <div class="develop-img">
+                    <img src="./images/develop-2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- start develop right shape -->
+        <div class="right-develop-shapes">
+        <img src="./images/develop-shape-2.png" alt="" class="develop-right-shape">
+        </div>
+        <!-- end develop right shape -->
+    </section>
+    <!--******************************************** start develop section  ************************************************-->
+
+    <!--******************************************** start testimonial section  ************************************************-->
+
+    <section class="hp-testimonial-section" id="community">
+        <div class="container">
+            <div class="testimonial-wrapper">
+              <h2 class="block-title">
+                Trusted by Agencies
+                & Store Owners
+              </h2>
+            </div>
+            <!-- testimonial slide -->
+            <div class="slider-wrapper ">
+                <div class="slider-items">
+                    <div class="testimonial-img">
+                          <ul class="left-img">
+                              <li><img src="./images/testimonial-6.png" alt=""></li>
+                              <li><img src="./images/testimonial-5.png" alt=""></li>
+                              <li><img src="./images/testimonial-4.png" alt=""></li>
+                          </ul>
+                          
+                          <ul class="right-img">
+                            <li><img src="./images/testimonial-1.png" alt=""></li>
+                            <li><img src="./images/testimonial-2.png" alt=""></li>
+                            <li><img src="./images/testimonial-3.png" alt=""></li>
+                          </ul>
+                    </div>
+                    <div class="item-box active">
+                        <!-- <img src="./images/testimonial-1.png" alt="" class="circle-img"> -->
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            1 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                        
+                    </div>
+                    <div class="item-box">
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            2 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                    </div>
+                    <div class="item-box">
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            3 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                    </div>
+                    <div class="item-box">
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            4 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                    </div>
+                    <div class="item-box">
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            5 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                    </div>
+                    <div class="item-box">
+                        <p class="block-description">
+                            <img src="./images/testimonial-0.png" alt="">
+                            6 No other eCommerce platform allows people to
+                            start for free and grow their store as their
+                            business grows. More importantly, WooCommerce 
+                            doesn't charge you a portion of your profits as 
+                            your business grows!
+                        </p>
+                    </div>
+                    <div class="testimonial-shape">
+                        <!-- left-shape -->
+                    <img class="testimonial-left-shape-1" src="./images/testimonial-shape-1.png">
+                    <!-- end left shape -->
+                   <!-- left-shape -->
+                   <img class="testimonial-right-shape-2" src="./images/testimonial-shape-2.png">
+                   <!-- end left shape -->
+                    </div>
+                </div>
+                <div class="slider-arrow">
+                    <div class="prev-arrow" onclick="controller(-1)">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="next-arrow" onclick="controller(1)">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- testimonial slide -->
+            
+        </div>
+    </section>
+
+    <!--******************************************** end testimonial section  ************************************************-->
+
+    <!--******************************************** start people section  ************************************************-->
+     <section id="marketplace" class="hp-people-section">
+        
+             <div class="people-wrapper">
+                 <div class="people-head">
+                     <h2 class="block-title">Supported by real people</h2>
+                     <p class="block-description">Our team of Happiness Engineers works remotely from 58 countries providing<br>
+                        customer support across multiple time zones.</p>
+                     <div class="people-img">
+                         <!-- bg shape -->
+                         <img src="./images/people-bg-shape.png" alt="" class="people-bg-shape">
+                         <img src="./images/people-bg.png" alt="">
+                     </div>
+                 </div>
+                 
+             </div>
+             <div class="people-shape">
+                <!-- left-shape -->
+            <img class="people-left-shape-1" src="./images/testimonial-shape-1.png">
+            <!-- end left shape -->
+           <!-- left-shape -->
+           <img class="people-right-shape-2" src="./images/testimonial-shape-2.png">
+           <!-- end left shape -->
+            </div>
+     </section>
+    <!--******************************************** start people section  ************************************************-->
+
+    <!--******************************************** start cta section  ************************************************-->
+     
+    <section id="resources" class="hp-cta-section">
+        <div class="cta-container">
+            <div class="cta-wrapper">
+                <div class="cta-left-text">
+                    <span>WooCommerce - the</span> most customizable eCommerce platform for building your online business.
+                </div>
+                <div class="cta-right-text">
+                    <a href="#"><button class="btn-4">GET STARTED</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--******************************************** end cta section  ************************************************-->
+
+    <!--******************************************** start footer section  ************************************************-->
+
+    <section class="hp-footer-section">
+        <div class="container">
+            <div class="footer-secure">
+                <div class="footer-secure-box">
+                    <i class="far fa-check-circle "></i> <span>30 day <span>money back guarantee</span></span>
+                </div>
+                <div class="footer-secure-box">
+                    <i class="far fa-life-ring"></i> <span><span>Support</span> teams across the world</span>
+                </div>
+                <div class="footer-secure-box">
+                    <i class="fas fa-lock"></i> <span><span>Safe & Secure</span> online payment</span>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="./images/LOGO-1.png" alt="">
+            </div>
+            <div class="footer-wrapper">
+                <div class="footer-card">
+                    <h4 class="footer-title">Who we Are</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Work With Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h4 class="footer-title">Woocommerce</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#"> Payments </a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Extension Store</a></li>
+                        <li><a href="#">eCommerce blog</a></li>
+                        <li><a href="#">Development blog</a></li>
+                        <li><a href="#">Ideas board</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Email Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h4 class="footer-title">Other products</h4>
+                    <ul>
+                        <li><a href="#">Storefront</a></li>
+                        <li><a href="#">WooSlider</a></li>
+                        <li><a href="#">Sensei</a></li>
+                        <li><a href="#">Sensei Extensions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h4 class="footer-title">Support</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Customizations</a></li>
+                        <li><a href="#">Support Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">COVID-19 Resources</a></li>
+                        <li><a href="#">Privacy Notice for</a></li>
+                        <li><a href="#">California Users</a></li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h4 class="footer-title">We recommend</h4>
+                    <ul>
+                        <li><a href="#">WooExperts</a></li>
+                        <li><a href="#">Hosting Solutions</a></li>
+                        <li><a href="#">Pre-sales FAQ</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">Feedback Group</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--******************************************** end footer section  ************************************************-->
+
+    <!--******************************************** start bottom-footer section  ************************************************-->
+
+    <section class="hp-bottom-footer-section">
+         <div class="container">
+             <div class="bottom-footer-wrapper">
+                 <div class="footer-social">
+                    <a a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                   <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                   <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                   <a href="https://www.rssboard.org/" target="_blank"><i class="fas fa-rss"></i></a>
+                 </div>
+                 <div class="copyright">
+                     <p class="block-description">
+                        COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS  PRIVACY POLICY
+                     </p>
+                 </div>
+                 <div class="automat">
+                     <a href="#"><img src="./images/auto.png" alt=""></a>
+                 </div>
+             </div>
+         </div>
+    </section>
+
+    <!--******************************************** end bottom-footer section  ************************************************-->
+
+   
+
+
+
+
+
+
+    <!--*************************** js **************************-->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
